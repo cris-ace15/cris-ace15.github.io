@@ -28,10 +28,14 @@ img {
   height: auto;
 }
 
-.center-content {
+..center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 
+/* Optional: control image sizing and spacing */
 .overview-img {
   max-width: 90%;
   height: auto;
