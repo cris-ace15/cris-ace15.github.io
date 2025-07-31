@@ -27,3 +27,15 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.center-content {
+  text-align: center;
+}
+
+.overview-img {
+  max-width: 90%;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
