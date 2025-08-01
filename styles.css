@@ -6,7 +6,8 @@ body {
   padding: 0;
 }
 
-header, footer {
+header,
+footer {
   background-color: #222;
   padding: 1rem;
   text-align: center;
@@ -26,7 +27,6 @@ section {
 img {
   max-width: 100%;
   height: auto;
-  
 }
 
 .center-content {
@@ -43,4 +43,3 @@ img {
   margin: 20px 0;
   border-radius: 10px;
 }
-
