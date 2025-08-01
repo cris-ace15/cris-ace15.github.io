@@ -45,7 +45,7 @@ img {
 }
 
 .text-box {
-  max-width: 700px;      /* Limits text width */
+  max-width: 500px;      /* Limits text width */
   margin: 0 auto;        /* Horizontally center the block */
   text-align: center;    /* Keeps paragraphs centered */
   padding: 0 1rem;       /* Prevents text from touching edges on small screens */
