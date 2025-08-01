@@ -38,7 +38,7 @@ img {
 
 /* Optional: control image sizing and spacing */
 .overview-img {
-  max-width: 70%;
+  max-width: 50%;
   height: auto;
   margin: 20px 0;
   border-radius: 10px;
