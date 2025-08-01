@@ -26,10 +26,10 @@ section {
 img {
   max-width: 100%;
   height: auto;
-  text-align: center;
+  
 }
 
-..center-content {
+.center-content {
   display: flex;
   flex-direction: column;
   align-items: center;
