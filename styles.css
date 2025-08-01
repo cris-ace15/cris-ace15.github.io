@@ -43,3 +43,9 @@ img {
   margin: 20px 0;
   border-radius: 10px;
 }
+
+.text-box {
+  max-width: 700px;      /* Limits text width */
+  margin: 0 auto;        /* Horizontally center the block */
+  text-align: center;    /* Keeps paragraphs centered */
+  padding: 0 1rem;       /* Prevents text from touching edges on small screens */
