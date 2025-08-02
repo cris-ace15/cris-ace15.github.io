@@ -36,13 +36,15 @@ img {
   text-align: center;
 }
 
-/*control image sizing and spacing */
 .overview-img {
-  max-width: 50%;
+  max-width: 70%;
   height: auto;
   margin: 20px 0;
   border-radius: 10px;
+  display: block;
+  margin-left: 0; /* pushes it left */
 }
+
 
 .text-box {
   max-width: 500px;      /* Limits text width */
