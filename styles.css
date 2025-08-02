@@ -324,3 +324,19 @@ h1 {
 .purchase-links a:hover {
   text-decoration: underline;
 }
+
+.logo {
+  height: 60px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
