@@ -115,10 +115,9 @@ img {
 .character-img {
   display: block;
   width: 250px;         /* set fixed width */
-  height: 350px;        /* set fixed height */
+  height: 159px;        /* set fixed height */
   object-fit: cover;    /* crop image to fit without distortion */
   margin: 10px auto;
-  border-radius: 8px;
 }
 
 
