@@ -48,7 +48,11 @@
 
   <div id="thankYouMessage" style="display:none; text-align:center; margin-top: 30px;">
     <h2>Thanks for your submission!</h2>
-    
+  </div>
+
+  <!-- Always-visible Back to Home button -->
+  <div style="text-align: center; margin-top: 40px;">
+    <a href="index.html" class="back-home-button">Back to Home</a>
   </div>
 
   <script>
@@ -58,9 +62,8 @@
     form.addEventListener('submit', function(event) {
       event.preventDefault(); // Stop form from submitting normally
       form.style.display = 'none'; // Hide form
-      thankYouMessage.style.display = 'block'; // Show thank you message
+      thankYouMessage.style.display = 'block'; // Show thank-you message
     });
   </script>
-  <a href="index.html" class="back-home-button">Back to Home</a>
 </body>
 </html>
