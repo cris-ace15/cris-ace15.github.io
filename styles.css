@@ -290,3 +290,37 @@ h1 {
 .item-table tr:nth-child(even) {
   background-color: #1a1a1a;
 }
+
+.purchase-links {
+  text-align: center;
+  padding: 2rem;
+}
+
+.purchase-links h2 {
+  color: #76c7c0;
+  margin-bottom: 1rem;
+  text-shadow: 
+    -1px -1px 0 black,  
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+}
+
+.purchase-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.purchase-links li {
+  margin: 10px 0;
+}
+
+.purchase-links a {
+  color: #00ff00;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.purchase-links a:hover {
+  text-decoration: underline;
+}
