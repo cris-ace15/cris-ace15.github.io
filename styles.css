@@ -1,11 +1,9 @@
-/* General site styles */
-
 body {
   font-family: Arial, sans-serif;
   background-color: #111;
-  color: #eee;
+  color: #f5f5f5;
   margin: 0;
-  padding: 20px;
+  padding: 0;
 }
 
 header,
@@ -47,9 +45,9 @@ img {
 }
 
 .text-box {
-  max-width: 600px;
+  max-width: 500px;
   margin: 0 auto;
-  text-align: left;
+  text-align: center;
   padding: 0 1rem;
 }
 
@@ -66,6 +64,11 @@ img {
   max-width: 300px;
   height: auto;
   border-radius: 10px;
+}
+
+.text-box {
+  max-width: 600px;
+  text-align: left;
 }
 
 .character-list {
@@ -113,6 +116,7 @@ img {
   display: block;
   margin: 10px auto;
 }
+
 
 .gameplay-container {
   display: flex;
@@ -173,4 +177,74 @@ img {
 .screenshot-grid img {
   width: 100%;
   height: auto;
-  border-rad
+  border-radius: 8px;
+}
+
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #eee;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #00ff00;
+}
+
+/* Form container */
+.survival-form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #222;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Form fields */
+.survival-form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.survival-form input[type="text"],
+.survival-form input[type="number"],
+.survival-form select,
+.survival-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #eee;
+}
+
+.radio-group {
+  margin-top: 10px;
+}
+
+.radio-group input[type="radio"] {
+  margin-right: 8px;
+}
+
+.survival-form textarea {
+  resize: vertical;
+}
+
+/* Submit button */
+.survival-form button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #00ff00;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.survival-form button:hover {
+  background-color: #66ff66;
+}
