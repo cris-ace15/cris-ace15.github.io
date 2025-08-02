@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="description" content="Take the Resident Evil 4 Remake Survival Readiness Quiz to test your preparedness. Are you ready to survive Las Plagas and save Ashley?" />
   <title>Survival Readiness Quiz</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <h1>Survival Readiness Quiz</h1>
   
-  <form id="survivalForm" action="#" method="post" class="survival-form">
+  <form id="quizForm" class="survival-form">
     <label for="name">Your Name</label>
     <input type="text" id="name" name="name" required />
 
@@ -56,14 +57,29 @@
   </div>
 
   <script>
-    const form = document.getElementById('survivalForm');
-    const thankYouMessage = document.getElementById('thankYouMessage');
+  document.getElementById("quizForm").addEventListener("submit", function (event) {
+    event.preventDefault(); // Prevent actual form submission
 
-    form.addEventListener('submit', function(event) {
-      event.preventDefault(); // Stop form from submitting normally
-      form.style.display = 'none'; // Hide form
-      thankYouMessage.style.display = 'block'; // Show thank-you message
-    });
-  </script>
+    // Get form data
+    const name = document.getElementById("name").value;
+    const herbs = document.getElementById("herbs").value;
+    const item = document.getElementById("item").value;
+    const style = document.querySelector('input[name="style"]:checked').value;
+    const reaction = document.getElementById("reaction").value;
+    const comments = document.getElementById("comments").value;
+
+    // You can log the data to the console (simulate processing)
+    console.log("Survival Quiz Submitted:");
+    console.log("Name:", name);
+    console.log("Herbs:", herbs);
+    console.log("Item:", item);
+    console.log("Combat Style:", style);
+    console.log("Reaction:", reaction);
+    console.log("Comments:", comments);
+
+    
+    alert("Thanks for submitting your survival readiness, " + name + "!");
+  });
+</script>
 </body>
 </html>
