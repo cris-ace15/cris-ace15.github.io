@@ -248,3 +248,19 @@ h1 {
 .survival-form button:hover {
   background-color: #66ff66;
 }
+
+.back-home-button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #00ff00;
+  color: #121212;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 700;
+  transition: background-color 0.3s ease;
+}
+
+.back-home-button:hover {
+  background-color: #28a428;
+}
