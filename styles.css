@@ -61,7 +61,7 @@ img {
 }
 
 .overview-img-side {
-  max-width: 300px;
+  max-width: 70%;
   height: auto;
   border-radius: 10px;
 }
