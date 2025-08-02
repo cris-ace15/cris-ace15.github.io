@@ -116,3 +116,46 @@ img {
   display: block;
   margin: 10px auto;
 }
+
+
+.gameplay-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.gameplay-text {
+  flex: 1 1 500px;
+}
+
+.gameplay-text h2 {
+  color: #76c7c0;
+  margin-bottom: 0.3rem;
+  text-shadow: 
+    -1px -1px 0 black,  
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+}
+
+.gameplay-text p {
+  margin-bottom: 1.5rem;
+  text-indent: 1.5em;
+  line-height: 1.6;
+}
+
+.gameplay-img-box {
+  flex: 1 1 300px;
+  text-align: center;
+}
+
+.gameplay-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
