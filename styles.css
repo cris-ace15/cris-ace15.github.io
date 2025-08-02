@@ -36,7 +36,7 @@ img {
   text-align: center;
 }
 
-/* Optional: control image sizing and spacing */
+/*control image sizing and spacing */
 .overview-img {
   max-width: 50%;
   height: auto;
@@ -49,3 +49,9 @@ img {
   margin: 0 auto;        /* Horizontally center the block */
   text-align: center;    /* Keeps paragraphs centered */
   padding: 0 1rem;       /* Prevents text from touching edges on small screens */
+
+  .text-box p {
+  font-size: 1.2rem; /* Adjust this value as needed */
+  line-height: 1.6;  /* improves readability */
+}
+
