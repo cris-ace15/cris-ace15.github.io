@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Survival Readiness Quiz</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Survival Readiness Quiz</h1>
+  <form action="#" method="post" class="survival-form">
+    <label for="name">Your Name</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="herbs">How many green herbs do you carry?</label>
+    <input type="number" id="herbs" name="herbs" min="0" max="99" required>
+
+    <label for="item">Favorite item in your attaché case</label>
+    <select id="item" name="item">
+      <option value="handgun">Handgun</option>
+      <option value="firstaid">First Aid Spray</option>
+      <option value="grenade">Flash Grenade</option>
+      <option value="egg">Golden Egg</option>
+      <option value="rocket">Rocket Launcher</option>
+    </select>
+
+    <label>Combat Style</label>
+    <div class="radio-group">
+      <input type="radio" id="save" name="style" value="save" checked>
+      <label for="save">Save every bullet</label><br>
+      <input type="radio" id="spray" name="style" value="spray">
+      <label for="spray">Spray and pray</label>
+    </div>
+
+    <label for="reaction">What do you do when you hear “Behind you, imbecile!”</label>
+    <select name="reaction" id="reaction">
+      <option value="run">Run for your life</option>
+      <option value="roundhouse">Roundhouse kick</option>
+      <option value="flash">Use flash grenade</option>
+      <option value="pray">Hope for the best</option>
+    </select>
+
+    <label for="comments">Any survival tips?</label>
+    <textarea id="comments" name="comments" rows="4" placeholder="Share your strategy..."></textarea>
+
+    <button type="submit">Submit Readiness</button>
+  </form>
+</body>
+</html>
