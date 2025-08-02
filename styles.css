@@ -264,3 +264,29 @@ h1 {
 .back-home-button:hover {
   background-color: #28a428;
 }
+
+.item-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem auto;
+  max-width: 900px;
+  background-color: #222;
+  color: #f5f5f5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.item-table th,
+.item-table td {
+  border: 1px solid #444;
+  padding: 12px;
+  text-align: left;
+}
+
+.item-table th {
+  background-color: #333;
+  color: #76c7c0;
+}
+
+.item-table tr:nth-child(even) {
+  background-color: #1a1a1a;
+}
