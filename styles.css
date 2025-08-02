@@ -33,9 +33,10 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
+  
 }
 
+/*control image sizing and spacing */
 .overview-img {
   max-width: 70%;
   height: auto;
@@ -52,8 +53,23 @@ img {
   text-align: center;    /* Keeps paragraphs centered */
   padding: 0 1rem;       /* Prevents text from touching edges on small screens */
 
-  .text-box p {
-  font-size: 1.2rem; /* Adjust this value as needed */
-  line-height: 1.6;  /* improves readability */
+
+.overview-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; /* Keeps it responsive on smaller screens */
+  gap: 2rem;
+  padding: 20px;
 }
 
+.overview-img-side {
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.text-box {
+  max-width: 600px;
+  text-align: left;
+}
